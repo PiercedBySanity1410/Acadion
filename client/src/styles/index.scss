@@ -1,0 +1,13 @@
+@use "./foundation/base";
+@use "./foundation/themes" as themes;
+
+:root {
+  @include themes.theme(light);
+}
+
+[data-theme="dark"] {
+  @include themes.theme(dark);
+}
+*{
+  color: theme(bg);
+}

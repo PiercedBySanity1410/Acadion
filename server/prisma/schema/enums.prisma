@@ -1,0 +1,29 @@
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+enum AcademicLevel {
+  UNDERGRADUATE
+  GRADUATE
+  PHD
+}
+
+enum Status {
+  ACTIVE
+  SUSPENDED
+  INACTIVE
+}
+
+enum FacultyRank {
+  ASSISTANT_PROFESSOR_I
+  ASSISTANT_PROFESSOR_II
+  ASSOCIATE_PROFESSOR
+  PROFESSOR
+}
+
+enum RoleType {
+  STUDENT
+  PROFESSOR
+}

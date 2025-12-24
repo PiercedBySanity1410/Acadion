@@ -1,0 +1,16 @@
+model Professor {
+  id             String @id @default(uuid())
+  personId       String @unique
+  employeeNumber String @unique
+
+  hireID      DateTime
+  department  String
+  facultyRank FacultyRank
+  salary      Int?
+  cabin       String?
+  status      Status      @default(ACTIVE)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  person Person @relation(fields: [personId], references: [id])
+}

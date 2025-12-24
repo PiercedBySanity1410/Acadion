@@ -1,0 +1,17 @@
+model Student {
+  id         String @id @default(uuid())
+  personId   String @unique
+  rollNumber String @unique
+
+  enrollmentID  DateTime
+  academicLevel AcademicLevel
+  department    String
+  branch        String
+
+  academicStatus Status @default(ACTIVE)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  person Person @relation(fields: [personId], references: [id])
+}

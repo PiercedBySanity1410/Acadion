@@ -1,4 +1,4 @@
-import Logo from "../icons/logo";
+import Logo from "../assets/icons/Logo";
 import "../styles/sidebar.scss";
 const Sidebar = () => {
   return (

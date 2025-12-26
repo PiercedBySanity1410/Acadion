@@ -1,6 +1,4 @@
 @use "./sizes";
-@use "./spacing";
-@use "./radii";
 @use "./colors";
 
 :root {
@@ -8,16 +6,6 @@
   // sizes
   @each $k, $v in sizes.$sizes {
     --size-#{$k}: #{$v};
-  }
-
-  // spacing
-  @each $k, $v in spacing.$spacing {
-    --space-#{$k}: #{$v};
-  }
-
-  // radii
-  @each $k, $v in radii.$radii {
-    --radius-#{$k}: #{$v};
   }
 
   // colors

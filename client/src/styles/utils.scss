@@ -6,14 +6,6 @@
     @return var(--size-#{$key});
 }
 
-@function space($key) {
-    @return var(--space-#{$key});
-}
-
-@function radius($key) {
-    @return var(--radius-#{$key});
-}
-
 @function theme($key) {
     @return var(--theme-#{$key});
 }

@@ -5,9 +5,24 @@
   @include themes.theme(light);
 }
 
-[data-theme="dark"] {
+body[data-theme="dark"] {
   @include themes.theme(dark);
 }
-*{
-  color: theme(bg);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background: theme(bg-gradient);
 }

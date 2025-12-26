@@ -1,5 +1,5 @@
 $theme: (
-  bg: #0f172a,
-  text: #f8fafc,
-  primary: #60a5fa
+  bg-gradient:linear-gradient(160deg, #383838 0%, #4A5C71 100%),
+  bg: #111111,
+  shadow-gradient: (4px 4px 76px rgba(56, 56, 56, 0.5), inset 2px 2px 16px rgba(56, 56, 56, 0.08))
 );

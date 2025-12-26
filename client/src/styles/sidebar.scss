@@ -1,0 +1,10 @@
+.sidebar {
+    height: 100%;
+    padding: size(lg) size(xl);
+    background-color: theme(bg);
+    border-radius: size(xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: theme(shadow-gradient);
+}
